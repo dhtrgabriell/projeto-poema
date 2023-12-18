@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --font1: Arial, Verdana, Helvetica, sans-serif;
+    --font2: 'Sriracha', cursive;
+    --font3: 'Passion One', sans-serif;
+}
+
+html, body {
+    font-family: var(--font1);
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: var(--font3);
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 7vw;
+}
+
+header p {
+    padding-bottom: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    font-family: var(--font2);
+    padding-top: 40vh;
+    padding-bottom: 40vh;
+    padding-left: 40px;
+    line-height: 2em;
+    font-size: 3vw;
+}
+
+.normal {
+    background-color: white;
+}
+
+.imagem {
+    background-color: rgb(48, 48, 48);
+    box-shadow: inset 6px 6px 13px 0px #0000007a;
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagem p {
+    background-color: #00000080;
+    text-shadow: 1px 1px 0px black;
+    display: inline-block;
+    padding: 10px;
+}
+
+mark {
+    padding: 5px;
+}
+
+section#img01 {
+    background-image: url("../imagens/space.jpg");
+    background-position: left center;
+}
+
+section#img02 {
+    background-image: url("../imagens/black-white-11.jpg");
+    background-position: center center;
+}
+
+section#img03 {
+    background-image: url("../imagens/manoel-de-barros.jpg");
+    background-position: center center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
