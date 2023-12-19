@@ -55,12 +55,12 @@ section {
     padding-top: 40vh;
     padding-bottom: 40vh;
     padding-left: 40px;
-    line-height: 2em;
-    font-size: 2em;
 }
 
 section p {
     font-family: var(--font4);
+    line-height: 2em;
+    font-size: 2em;
 }
 
 .normal {
