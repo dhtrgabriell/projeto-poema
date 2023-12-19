@@ -77,7 +77,6 @@ section p {
 
 .imagem p {
     background-color: #00000080;
-    text-shadow: 1px 1px 0px black;
     display: inline-block;
     padding: 10px;
 }
@@ -98,7 +97,7 @@ section#img02 {
 
 section#img03 {
     background-image: url("../imagens/manoel-de-barros.jpg");
-    background-position: right center;
+    background-position: top center;
 }
 
 footer {
