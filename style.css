@@ -60,11 +60,12 @@ a:hover {
 section {
     padding-top: 40vh;
     padding-bottom: 40vh;
-    padding-left: 40px;
 }
 
 section p {
-    display: inline-block;
+    display: block;
+    margin: auto;
+    width: fit-content;
     border-radius: 10px;
     padding: 10px;
     color: white;
@@ -79,7 +80,7 @@ section p {
 }
 
 .normal p {
-    background-color: #000000c0;
+    color: #000000;
 }
 
 .imagem {
