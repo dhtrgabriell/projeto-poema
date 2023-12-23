@@ -64,7 +64,12 @@ section {
 }
 
 section p {
-    font-family: var(--font3);
+    background-color: #000000a8;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-family: var(--font5);
     line-height: 2em;
     font-weight: 400;
     font-size: 2em;
@@ -90,7 +95,11 @@ section p {
 }
 
 mark {
-    padding: 5px;
+    font-family: var(--font5);
+    background-color: rgba(38, 221, 221, 0.726);
+    border-radius: 5px;
+    color: #000000;
+    padding: 8px;
 }
 
 section#img01 {
