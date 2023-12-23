@@ -64,7 +64,6 @@ section {
 }
 
 section p {
-    background-color: #000000a8;
     display: inline-block;
     border-radius: 10px;
     padding: 10px;
@@ -79,6 +78,10 @@ section p {
     background-color: #e6cdcd;
 }
 
+.normal p {
+    background-color: #000000c0;
+}
+
 .imagem {
     background-color: rgb(48, 48, 48);
     box-shadow: inset 6px 6px 13px 0px #0000007a;
@@ -90,8 +93,6 @@ section p {
 
 .imagem p {
     background-color: #00000080;
-    display: inline-block;
-    padding: 10px;
 }
 
 mark {
