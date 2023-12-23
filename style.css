@@ -94,17 +94,17 @@ mark {
 }
 
 section#img01 {
-    background-image: url("../imagens/space.jpg");
+    background-image: url("imagens/space.jpg");
     background-position: center center;
 }
 
 section#img02 {
-    background-image: url("../imagens/black-white-11.jpg");
+    background-image: url("imagens/black-white-11.jpg");
     background-position: center center;
 }
 
 section#img03 {
-    background-image: url("../imagens/manoel-de-barros-1.jpg");
+    background-image: url("imagens/manoel-de-barros-1.jpg");
     background-position: center center;
 }
 
